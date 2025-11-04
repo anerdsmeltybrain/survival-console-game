@@ -36,7 +36,7 @@ each lane has a bomb it's your job to choose the right one!
 
 	public void displayTitle() {
 		Console.WriteLine(title_msg);
-		Console.WriteLine($"Health: {player.health} Pos: {player.position}");
+		Console.WriteLine($"Health: {player.health} Pos: {player.position} Streak: {streak})");
 	}
 	
 	private void checkPos() {
